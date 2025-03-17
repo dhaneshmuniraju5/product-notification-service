@@ -9,10 +9,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class AzureServiceBusService {
 
-    @Value("${azure.servicebus.connection-string}")
+//    @Value("${azure.servicebus.connection-string}")
     private String connectionString;
 
-    @Value("${azure.servicebus.queue-name}")
+//    @Value("${azure.servicebus.queue-name}")
     private String queueName;
 
     public void sendMessage(String messageContent) {
